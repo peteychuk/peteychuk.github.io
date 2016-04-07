@@ -208,6 +208,11 @@ nav ul a:hover:after {
     left: -1px;
 }
 
+.fa-home {
+    top: 12px;
+    left: 0px;
+}
+
 @media (max-width:768px) {
     .name {
         margin-top: 45px;
