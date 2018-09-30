@@ -78,7 +78,7 @@ h1 {
 
 h2 {
     font-size: 20px;
-    line-height: 20px;
+    line-height: 28px;
     font-weight: 300;
     color: #fff;
     margin-bottom: 13px;
@@ -222,7 +222,7 @@ nav ul a:hover:after {
 
     h2 {
         font-size: 18px;
-        line-height: 18px;
+        line-height: 14px;
     }
 }
 
