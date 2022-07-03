@@ -53,15 +53,15 @@ section > .wrap {
 }
 
 .logo {
-    width: 72px;
-    height: 67px;
-    background-image: url('../img/logo.png');
-    background-size: 72px 67px;
+    width: 120px;
+    height: 120px;
     margin: 0 auto;
+    border-radius: 50%;
+    border: 2px solid #fbfbfb;
 }
 
 .name {
-    margin-top: 75px;
+    margin-top: 55px;
     font-size: 42px;
     line-height: 42px;
     font-weight: 100;
@@ -77,31 +77,14 @@ h1 {
 }
 
 h2 {
-    font-size: 20px;
-    line-height: 28px;
+    font-size: 16px;
+    line-height: 26px;
     font-weight: 300;
     color: #fff;
     margin-bottom: 13px;
     margin-top: 15px;
     letter-spacing: 0.5px;
-}
-
-.contacts {
-    font-size: 14px;
-    line-height: 14px;
-    margin-bottom: 13px;
-    color: #e7053e;
-    padding-bottom: 3px;
-    border-bottom: 1px solid #e7053e;
-    border-bottom: 1px solid rgba(231,5,62,0.70);
-    display: inline-block;
-    text-decoration: none;
-    -webkit-transition: border 0.2s;
-    -moz-transition: border 0.2s;
-    transition: border 0.2s;
-}
-.contacts:hover {
-    border-bottom: 1px solid transparent;
+    padding: 0 10px;
 }
 
 nav {
@@ -221,19 +204,6 @@ nav ul a:hover:after {
     }
 
     h2 {
-        font-size: 18px;
-        line-height: 14px;
-    }
-}
-
-@media
-only screen and (-webkit-min-device-pixel-ratio:2),
-only screen and (min--moz-device-pixel-ratio:2),
-only screen and (-o-min-device-pixel-ratio:2/1),
-only screen and (min-device-pixel-ratio:2),
-only screen and (min-resolution:192dpi),
-only screen and (min-resolution:2dppx) {
-    .logo {
-        background-image: url('../img/logo-2x.png');
+        padding: 0 20px;
     }
 }
